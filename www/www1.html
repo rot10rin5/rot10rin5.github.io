@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 1: Lost Entries</title>
+  <script type="module">
+    import ZeroMd, { STYLES } from 'https://cdn.jsdelivr.net/npm/zero-md@3'
+
+    customElements.define('zero-md', class extends ZeroMd {
+      async load() {
+        await super.load()
+        this.template = STYLES.preset('dark')
+      }
+    })
+  </script>
+  <style>
+    body {
+      background-color: #0d1117;
+    }
+  </style>
+</head>
+<body>
+  <zero-md>
+    <script type="text/markdown">
+
+# Chapter 1: Lost Entries
+
+## 2020-03-10, 20:15
+All equipment is in a condition that are better than 99%. Save Point creation completed. Testing Save Point functionality completed. Opening The Gate completed. Testing gate functionality completed. . . . Preparation for traveling to world_1 completed.
+
+This might be the beginning of everything.
+
+## 2020-03-18, 17:41
+What is this place? Is everything made of glass or something? Why do I only see myself? . . . wait, I can't see anything at all except myself. . . .
+
+What am I even trying to do here?
+What am I?
+What is this place?
+Why do I exist?
+
+## 2020-03-23, 22:47
+. . . Amidst the endless flow of time, my heart drifts aimlessly, feeling sorrowful seems pointless; better to let it go without feeling anything. . . . But I can’t let it go. . . . No, wait. . . . I’m not even holding onto it. . . . Can’t grasp it, can’t let it go, can’t see anything. . . . What is happening? Wait a minute. . . . Time isn’t moving forward at all. It’s just circling in the same place. **Click** A sound like a key turning echoes, followed by the sound of clock hands moving, then it ends wit- **Click**
+
+## 2020-03-15, 22:50
+Waking up today feels no different from any other day. The only thing that stands out is the sound of the clock, and the time I’ve lost. Then there’s the missing memories of the past week. While this isn’t something that happens often, it’s something I’ve prepared for. In this case, all I need to do is read my own notes. . . . It’s not like anything major has happened. . . . I guess it’s time to move forward.
+
+    </script>
+  </zero-md>
+</body>
+</html>

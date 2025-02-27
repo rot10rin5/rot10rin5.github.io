@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>คนเร่ร่อนลองล่องโลก</title>
+  <script type="module">
+    import ZeroMd, { STYLES } from 'https://cdn.jsdelivr.net/npm/zero-md@3'
+
+    customElements.define('zero-md', class extends ZeroMd {
+      async load() {
+        await super.load()
+        this.template = STYLES.preset('dark')
+      }
+    })
+  </script>
+  <style>
+    body {
+      background-color: #0d1117;
+    }
+  </style>
+</head>
+<body>
+  <zero-md>
+    <script type="text/markdown">
+
+# คนเร่ร่อนลองล่องโลก
+
+ผมฝันกลางวันค่อนค้างบ่อยดังนั้นแล้วเพื่อไม่ให้เสียเปล่าก็ลองเอาไปอ่านดูนะครับ เป็นเรื่องราวที่อ้างอิงมาจากผู้เขียนเอง
+
+เรื่องราวการเร่ร่อนของคนเร่ร่อนในที่ต่างๆ
+
+## เล่มที่ 1: จุดเริ่มต้น
+
+- [ตอนที่ 1: บันทึกที่หายไป](wwwth/wwwth1.html)
+
+    </script>
+  </zero-md>
+</body>
+</html>
